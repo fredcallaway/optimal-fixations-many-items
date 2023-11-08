@@ -1,4 +1,4 @@
-source("~/lib/base.r")
+source("base.r")
 model = read_csv('../model/results/summary_may10.csv') %>% 
     rename(setsize = n_arm) %>% 
     mutate(setsize = factor(setsize))
